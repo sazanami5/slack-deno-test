@@ -9,8 +9,8 @@ import GreetingWorkflow from "../workflows/greeting_workflow.ts";
  */
 const greetingTrigger: Trigger<typeof GreetingWorkflow.definition> = {
   type: "shortcut",
-  name: "Send a greeting",
-  description: "Send greeting to channel",
+  name: "インシデント報告ワークフロー",
+  description: "インシデント報告を始める",
   workflow: "#/workflows/greeting_workflow",
   inputs: {
     interactivity: {

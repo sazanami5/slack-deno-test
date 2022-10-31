@@ -7,9 +7,9 @@ import GreetingWorkflow from "./workflows/greeting_workflow.ts";
  * https://api.slack.com/future/manifest
  */
 export default Manifest({
-  name: "takahashi-test-app",
+  name: "incident_report_app",
   description:
-    "A sample that demonstrates using a function, workflow and trigger to send a greeting",
+    "create a incident report",
   icon: "assets/icon.png",
   workflows: [GreetingWorkflow],
   outgoingDomains: [],
